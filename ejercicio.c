@@ -5,7 +5,7 @@ int main(){
     float promedio = 0;
 
 do{
-    printf ("Ingrese la primera nota");
+    printf ("Ingrese la primera nota: ");
     scanf ("%f", &n_1);
 }while (n_1<0 || n_1>20);
 
@@ -15,7 +15,7 @@ do {
 }while (n_2<0|| n_2>20);
     promedio= (n_1+n_2)/2;
 
-    printf ("Promedio: %.2f", promedio);
+    printf ("/nPromedio: %.2f", promedio);
 
 
 
