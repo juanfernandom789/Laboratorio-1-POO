@@ -20,10 +20,12 @@ do {
 
 
 
-    if (promedio >=14){
-        printf ("Aprobado");
+    if (promedio < 11){
+        printf ("/nReprobado");
+    }else if (promedio > 11 && promedio <=13.99){
+    printf ("/nSupletorio");
     }else {
-    printf ("Reprobado");
+    printf("/nAprobado");
     }
     return 0;
 
